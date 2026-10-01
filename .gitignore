@@ -1,0 +1,21 @@
+# Face photos and attendance records are personal data: never commit them
+students/*
+!students/README.md
+attendance/*
+!attendance/README.md
+
+# Embedding cache
+.cache/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
