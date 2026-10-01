@@ -1,0 +1,4 @@
+deepface[tensorflow]>=0.0.93
+tf-keras
+opencv-python>=4.8,<5   # OpenCV 5 removed CascadeClassifier, which DeepFace needs
+numpy
